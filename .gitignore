@@ -1,25 +1,25 @@
-#vue_init
-/vue_init/.DS_Store
-/vue_init/node_modules
-/vue_init/dist
+#vue_init_pc_web
+/vue_init_pc_web/.DS_Store
+/vue_init_pc_web/node_modules
+/vue_init_pc_web/dist
 
-/vue_init/tests/e2e/videos/
-/vue_init/tests/e2e/screenshots/
+/vue_init_pc_web/tests/e2e/videos/
+/vue_init_pc_web/tests/e2e/screenshots/
 
 # local env files
-/vue_init/.env.local
-/vue_init/.env.*.local
+/vue_init_pc_web/.env.local
+/vue_init_pc_web/.env.*.local
 
 # Log files
-/vue_init/npm-debug.log*
-/vue_init/yarn-debug.log*
-/vue_init/yarn-error.log*
+/vue_init_pc_web/npm-debug.log*
+/vue_init_pc_web/yarn-debug.log*
+/vue_init_pc_web/yarn-error.log*
 
 # Editor directories and files
-/vue_init/.idea
-/vue_init/.vscode
-/vue_init/*.suo
-/vue_init/*.ntvs*
-/vue_init/*.njsproj
-/vue_init/*.sln
-/vue_init/*.sw*
+/vue_init_pc_web/.idea
+/vue_init_pc_web/.vscode
+/vue_init_pc_web/*.suo
+/vue_init_pc_web/*.ntvs*
+/vue_init_pc_web/*.njsproj
+/vue_init_pc_web/*.sln
+/vue_init_pc_web/*.sw*
