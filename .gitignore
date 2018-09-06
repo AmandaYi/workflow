@@ -1,0 +1,25 @@
+#vue_init
+/vue_init/.DS_Store
+/vue_init/node_modules
+/vue_init/dist
+
+/vue_init/tests/e2e/videos/
+/vue_init/tests/e2e/screenshots/
+
+# local env files
+/vue_init/.env.local
+/vue_init/.env.*.local
+
+# Log files
+/vue_init/npm-debug.log*
+/vue_init/yarn-debug.log*
+/vue_init/yarn-error.log*
+
+# Editor directories and files
+/vue_init/.idea
+/vue_init/.vscode
+/vue_init/*.suo
+/vue_init/*.ntvs*
+/vue_init/*.njsproj
+/vue_init/*.sln
+/vue_init/*.sw*
