@@ -23,3 +23,56 @@
 /vue_init_pc_web/*.njsproj
 /vue_init_pc_web/*.sln
 /vue_init_pc_web/*.sw*
+
+# vue_init_h5_web_vw
+/vue_init_h5_web_vw/.DS_Store
+/vue_init_h5_web_vw/node_modules
+/vue_init_h5_web_vw/dist
+
+/vue_init_h5_web_vw/tests/e2e/videos/
+/vue_init_h5_web_vw/tests/e2e/screenshots/
+
+# local env files
+/vue_init_h5_web_vw/.env.local
+/vue_init_h5_web_vw/.env.*.local
+
+# Log files
+/vue_init_h5_web_vw/npm-debug.log*
+/vue_init_h5_web_vw/yarn-debug.log*
+/vue_init_h5_web_vw/yarn-error.log*
+
+# Editor directories and files
+/vue_init_h5_web_vw/.idea
+/vue_init_h5_web_vw/.vscode
+/vue_init_h5_web_vw/*.suo
+/vue_init_h5_web_vw/*.ntvs*
+/vue_init_h5_web_vw/*.njsproj
+/vue_init_h5_web_vw/*.sln
+/vue_init_h5_web_vw/*.sw*
+
+
+# vue_init_h5_web_rem
+/vue_init_h5_web_rem/.DS_Store
+/vue_init_h5_web_rem/node_modules
+/vue_init_h5_web_rem/dist
+
+/vue_init_h5_web_rem/tests/e2e/videos/
+/vue_init_h5_web_rem/tests/e2e/screenshots/
+
+# local env files
+/vue_init_h5_web_rem/.env.local
+/vue_init_h5_web_rem/.env.*.local
+
+# Log files
+/vue_init_h5_web_rem/npm-debug.log*
+/vue_init_h5_web_rem/yarn-debug.log*
+/vue_init_h5_web_rem/yarn-error.log*
+
+# Editor directories and files
+/vue_init_h5_web_rem/.idea
+/vue_init_h5_web_rem/.vscode
+/vue_init_h5_web_rem/*.suo
+/vue_init_h5_web_rem/*.ntvs*
+/vue_init_h5_web_rem/*.njsproj
+/vue_init_h5_web_rem/*.sln
+/vue_init_h5_web_rem/*.sw*

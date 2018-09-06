@@ -1,0 +1,35 @@
+html,body{
+    margin: 0;padding: 0;
+    background-color: #ffffff;
+    font-family: "微软雅黑";
+	font-weight: normal;
+	font-stretch: normal;
+    letter-spacing: 0px;
+    height: 100%;
+    width: 100%;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: 0 none;
+    outline: 0 none;
+}
+
+img{
+    border: 0 none;
+    outline: 0 none;
+}
+
+.clearfix::before,.clearfix::after{
+    content:"";
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    zoom: 1;
+}
