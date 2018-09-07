@@ -24,16 +24,25 @@ export default new Router({
   routes: [
     {
       path: "",
-      component:App
+      component:App,
+      redirect:{
+        name:"index"
+      }
     },
     {
       path: "/",
-      component:App
+      component:App,
+      redirect:{
+        name:"index"
+      }
     },
     {
       path:"/index",
       name:"index",
       component:Index,
+      redirect:{
+        name:"home"
+      },
         // 从这里开始往下,都是以模块划分的路由,每一个路由都需要引入
       children:IndexChildrenRoutes
     }
