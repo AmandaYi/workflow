@@ -1,4 +1,4 @@
-# ggvue
+# vue_init_pc_web
 
 ## Project setup
 ```

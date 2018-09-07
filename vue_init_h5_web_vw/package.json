@@ -1,5 +1,5 @@
 {
-  "name": "ggvue",
+  "name": "vue_init_h5_web_vw",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "postcss-px-to-viewport": "^0.0.3",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
@@ -32,14 +33,5 @@
     "ts-jest": "^23.0.0",
     "typescript": "^3.0.0",
     "vue-template-compiler": "^2.5.17"
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {},
-      "postcss-px-to-viewport": {
-        "viewportWidth": 750,
-        "minPixelValue": 1
-      }
-    }
   }
 }

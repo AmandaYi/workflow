@@ -1,9 +1,7 @@
 <template>
   <div class="index">
-    <div id="nav">
       <router-link to="/home">模块一</router-link> |
       <router-link to="/index/about">模块二</router-link>
-    </div>
     <router-view/>
   </div>
 </template>

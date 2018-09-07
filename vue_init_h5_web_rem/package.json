@@ -1,5 +1,5 @@
 {
-  "name": "ggvue",
+  "name": "vue_init_h5_web_rem",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "lib-flexible": "^0.3.2",
     "postcss-pxtorem": "^4.0.1",
     "register-service-worker": "^1.0.0",

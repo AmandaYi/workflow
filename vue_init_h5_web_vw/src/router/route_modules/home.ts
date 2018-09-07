@@ -1,4 +1,4 @@
-const Home = () => import(/* webpackChunkName: "home" */ '@/pages/home.vue')
+const Home = () => import(/* webpackChunkName: "home" */ '@/pages/homeModule/home.vue')
 const HomeRouteList = [
     {
         // 这里的path使用了 根路径

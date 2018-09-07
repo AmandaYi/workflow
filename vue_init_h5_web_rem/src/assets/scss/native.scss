@@ -22,6 +22,8 @@ input{
 img{
     border: 0 none;
     outline: 0 none;
+    // 解决vw问题对于图片的显示
+    content: normal !important;
 }
 
 .clearfix::before,.clearfix::after{

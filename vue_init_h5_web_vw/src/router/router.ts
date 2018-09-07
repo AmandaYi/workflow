@@ -12,28 +12,30 @@ import AboutRouteList from "./route_modules/about";
 const IndexChildrenRoutes = [...HomeRouteList,...AboutRouteList]
 Vue.use(Router)
 export default new Router({
+   // 这默认请求重定向,一般推荐使用name,举例 
+   /**
+    * redirect: {
+    *    name: "index"
+    *   }, 
+    * 
+    */
   // mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
-      path: "/",
-      component: App,
-      redirect: {
-        name: "index"
-      },
-      children: [
-        {
-          path: "/index",
-          name: "index",
-          component: Index,
-          // 这里是默认请求重定向,可以进行更改,一般推荐使用name
-          redirect:{
-            name:"home"
-          },
-          // 从这里开始往下,都是以模块划分的路由,每一个路由都需要引入
-          children: IndexChildrenRoutes
-        },
-      ]
+      path: "",
+      component:App
     },
+    {
+      path: "/",
+      component:App
+    },
+    {
+      path:"/index",
+      name:"index",
+      component:Index,
+        // 从这里开始往下,都是以模块划分的路由,每一个路由都需要引入
+      children:IndexChildrenRoutes
+    }
   ]
 })

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index'
-import store from './vuex/store'
+import store from './vuex/index'
 import './registerServiceWorker'
 import 'lib-flexible/flexible.js'
 import './assets/scss/index.scss';  

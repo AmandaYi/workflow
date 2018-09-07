@@ -1,4 +1,4 @@
-# ggvue
+# vue_init_h5_web_vw
 
 ## Project setup
 ```
@@ -24,5 +24,3 @@ yarn run test:unit
 ```
 yarn run test:e2e
 ```
-### 说明
-pxtorem中，对于想忽略的px写成大写即可，诸如 border:1PX solid #fff; 

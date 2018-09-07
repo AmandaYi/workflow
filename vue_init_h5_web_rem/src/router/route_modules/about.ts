@@ -1,4 +1,4 @@
-const About = () => import(/* webpackChunkName: "about" */ '@/pages/about.vue')
+const About = () => import(/* webpackChunkName: "about" */ '@/pages/aboutModule/about.vue')
 const AboutRouteList = [
     {
         // 这里的path没有使用 根路径
